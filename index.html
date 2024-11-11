@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voronov</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="registration-form">
+            <h2>Registration</h2>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="register()">Register</button>
+            <div id="registration-output" class="output"></div>
+        </div>
+        <div class="button-container" id="button-container" style="display: none;">
+            <button onclick="displayMessage('Button 1 clicked!')">Button 1</button>
+            <button onclick="displayMessage('Button 2 clicked!')">Button 2</button>
+            <button onclick="displayMessage('Button 3 clicked!')">Button 3</button>
+            <div id="output" class="output"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
